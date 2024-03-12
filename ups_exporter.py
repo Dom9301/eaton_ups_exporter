@@ -7,7 +7,7 @@ from logging.handlers import RotatingFileHandler
 import datetime
 
 # Logging settings
-log_filename = '/root/ups_exporter.log'
+log_filename = '/path/to/ups_exporter.log'
 log_max_size = 1024 * 1024 * 10  # 10 MB
 
 logging.basicConfig(level=logging.DEBUG,
