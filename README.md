@@ -8,6 +8,10 @@ The HTTP server responds to GET requests by returning metrics in the Prometheus-
 
 ## Dependencies
 
+In order for the exporter to work, it is taken for granted that the UPS connects properly to the server, that the drivers are installed properly (usbhid-ups drivers are used), and that the upsc software can interact properly with the ups.
+
+I've developed and I'm using the exporter with Ubuntu 22.04.
+
 Make sure you have the following requirements installed before running the code:
 
     Python 3.x
