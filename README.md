@@ -28,7 +28,7 @@ To configure the server and logging, change the following variables in the code:
     log_filename: Path to the log file.
     log_max_size: Maximum size of the log file before rotation.
     PORT: Port on which the HTTP server listens for requests.
-    UPDATE_INTERVAL: Update interval of the metrics in seconds.
+    UPDATE_INTERVAL: Update interval of the metrics in seconds -> if I'm not mistaken the ups update the statistics every 30 seconds so it doesn't make sense to set a lower value
 
 ## Use
 
