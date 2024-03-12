@@ -24,7 +24,7 @@ logging.getLogger().addHandler(file_handler)
 # Port on which the HTTP server will listen
 PORT = 8111
 # Metrics update interval in seconds
-UPDATE_INTERVAL = 15
+UPDATE_INTERVAL = 30
 
 # Function to export a metric to Prometheus format
 def export_metric(metric_name, value, help_text=None, metric_type=None):
