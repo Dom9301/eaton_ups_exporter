@@ -14,9 +14,12 @@ I've developed and I'm using the exporter with Ubuntu 22.04.
 
 Make sure you have the following requirements installed before running the code:
 
-    Python 3.x
-    Python's http.server module
-    Python's socketserver module
+    Python 3.x with standard libraries:
+        http.server and socketserver: To manage the HTTP server.
+        subprocess: To execute system commands and get output.
+        time: For time operations.
+        logging: For logging.
+        datetime: To manipulate date and time objects.
 
 ## Configuration
 
