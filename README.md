@@ -41,7 +41,14 @@ Use a browser or HTTP client to access the exposed metrics. For example, if the 
 
 The code also implements event logging via the logging module. The logs are written to a file specified by the variables log_filename and log_max_size. If an error occurs during execution, the details are recorded in the log file.
 
-### Nota sull'UPS
+## Grafana Dashboard
+
+[here is the json](https://github.com/Dom9301/eaton_ups_exporter/blob/main/grafana_dashboard_ups.json) for the Grafana dashboard, change the values where needed.
+![Grafana Dashboard UPS](https://raw.githubusercontent.com/Dom9301/eaton_ups_exporter/main/dashboard_grafana_ups.png?raw=true)
+
+
+
+### Notes
 
 The code is configured to query a specific Ellipse ECO 800 UPS, in the code named Eaton5E. It should be compatible with at least the entire Eaton Ellipse ECO range, but make sure that your UPS is actually compatible and that the upsc commands work properly with your UPS before running the code.
 
